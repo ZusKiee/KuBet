@@ -1,0 +1,45 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "Ku-Admin",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ROOM","folderPath":"folders/ROOM.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Server","folderPath":"folders/Server.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Client","folderPath":"folders/Client.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Server/Scripts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GUI - Controller","folderPath":"folders/Server/GUI - Controller.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.11.1.129",
+  },
+  "resources": [
+    {"id":{"name":"scrClient","path":"scripts/scrClient/scrClient.yy",},},
+    {"id":{"name":"drawRectangle","path":"scripts/drawRectangle/drawRectangle.yy",},},
+    {"id":{"name":"obClient","path":"objects/obClient/obClient.yy",},},
+    {"id":{"name":"oRegisterController","path":"objects/oRegisterController/oRegisterController.yy",},},
+    {"id":{"name":"scrSend","path":"scripts/scrSend/scrSend.yy",},},
+    {"id":{"name":"oGraphic","path":"objects/oGraphic/oGraphic.yy",},},
+    {"id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},},
+    {"id":{"name":"rRegister","path":"rooms/rRegister/rRegister.yy",},},
+    {"id":{"name":"index","path":"rooms/index/index.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"index","path":"rooms/index/index.yy",},},
+    {"roomId":{"name":"rRegister","path":"rooms/rRegister/rRegister.yy",},},
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}

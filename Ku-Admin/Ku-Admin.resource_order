@@ -1,0 +1,15 @@
+{
+  "FolderOrderSettings": [
+    {"name":"ROOM","order":3,"path":"folders/ROOM.yy",},
+    {"name":"Server","order":5,"path":"folders/Server.yy",},
+    {"name":"Client","order":6,"path":"folders/Client.yy",},
+    {"name":"Scripts","order":1,"path":"folders/Server/Scripts.yy",},
+    {"name":"GUI - Controller","order":2,"path":"folders/Server/GUI - Controller.yy",},
+  ],
+  "ResourceOrderSettings": [
+    {"name":"drawRectangle","order":2,"path":"scripts/drawRectangle/drawRectangle.yy",},
+    {"name":"scrSend","order":1,"path":"scripts/scrSend/scrSend.yy",},
+    {"name":"fntDefault","order":1,"path":"fonts/fntDefault/fntDefault.yy",},
+    {"name":"rRegister","order":1,"path":"rooms/rRegister/rRegister.yy",},
+  ],
+}
