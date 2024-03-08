@@ -11,11 +11,11 @@
   },
   "defaultScriptType": 1,
   "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Client","folderPath":"folders/Client.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ROOM","folderPath":"folders/ROOM.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Server","folderPath":"folders/Server.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Client","folderPath":"folders/Client.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Server/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GUI - Controller","folderPath":"folders/Server/GUI - Controller.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Server/Scripts.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -32,11 +32,13 @@
     {"id":{"name":"oGraphic","path":"objects/oGraphic/oGraphic.yy",},},
     {"id":{"name":"fntDefault","path":"fonts/fntDefault/fntDefault.yy",},},
     {"id":{"name":"rRegister","path":"rooms/rRegister/rRegister.yy",},},
+    {"id":{"name":"rDashboard","path":"rooms/rDashboard/rDashboard.yy",},},
     {"id":{"name":"index","path":"rooms/index/index.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"index","path":"rooms/index/index.yy",},},
     {"roomId":{"name":"rRegister","path":"rooms/rRegister/rRegister.yy",},},
+    {"roomId":{"name":"rDashboard","path":"rooms/rDashboard/rDashboard.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

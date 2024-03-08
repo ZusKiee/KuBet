@@ -23,7 +23,9 @@ function scrClient()
 				
 				case "Login":
 				globalvar Name;
-				Name = NodeJs.Name;	
+				Name = NodeJs.Name;
+				
+				room_goto(rDashboard);	   
 				break;
 		
 
